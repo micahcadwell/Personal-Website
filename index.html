@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.s1 {font: 12.0px 'Hiragino Sans'}
+    span.s2 {font: 12.0px 'STIX Two Math'}
+    span.s3 {font: 12.0px 'Lucida Grande'}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;Micah Cadwell — Jazz Guitarist &amp; Educator&lt;/title&gt;</p>
+<p class="p1">&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1">&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&amp;family=DM+Mono:ital,wght@0,300;0,400;1,300&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--cream: #f5f0e8; --warm-white: #faf8f3; --ink: #1a1612;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--ink-muted: #4a4540; --ink-light: #8a8070;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--gold: #b8922a; --gold-light: #d4aa4a; --rust: #8b3a2a;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--border: rgba(26,22,18,0.12); --border-strong: rgba(26,22,18,0.25);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>html { scroll-behavior: smooth; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>body { font-family: 'Cormorant Garamond', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.7; overflow-x: hidden; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; background: rgba(245,240,232,0.92); backdrop-filter: blur(8px); border-bottom: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-logo { font-family: 'DM Mono', monospace; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-muted); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links { display: flex; gap: 2.5rem; list-style: none; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links a { font-family: 'DM Mono', monospace; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-muted); text-decoration: none; transition: color 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-social { display: flex; gap: 1.5rem; list-style: none; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-social a { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-light); text-decoration: none; transition: color 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-social a:hover { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-social { display: flex; gap: 2rem; list-style: none; margin-bottom: 3rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-social a { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-light); text-decoration: none; transition: color 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-social a:hover { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-social--dark a { color: rgba(245,240,232,0.35); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-social--dark a:hover { color: var(--gold-light); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; padding-top: 80px; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-left { padding: 6rem 4rem 6rem 3rem; display: flex; flex-direction: column; justify-content: center; position: relative; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-left::after { content: ''; position: absolute; right: 0; top: 15%; bottom: 15%; width: 0.5px; background: var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-tag { font-family: 'DM Mono', monospace; font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>h1 { font-size: clamp(3.5rem, 6vw, 6rem); font-weight: 300; line-height: 0.95; letter-spacing: -0.02em; margin-bottom: 0.15em; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>h1 em { font-style: italic; color: var(--ink-muted); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-sub { font-size: 1.2rem; font-weight: 300; color: var(--ink-muted); font-style: italic; margin: 1.75rem 0 2.5rem; max-width: 380px; line-height: 1.6; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-cta { display: flex; gap: 1rem; align-items: center; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn-primary { background: var(--ink); color: var(--cream); text-decoration: none; font-family: 'DM Mono', monospace; font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.9rem 2rem; transition: background 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn-primary:hover { background: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn-ghost { color: var(--ink-muted); text-decoration: none; font-family: 'DM Mono', monospace; font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.9rem 0; border-bottom: 0.5px solid var(--border-strong); transition: color 0.2s, border-color 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn-ghost:hover { color: var(--gold); border-color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-right { display: flex; align-items: center; justify-content: center; padding: 4rem 3rem 4rem 4rem; position: relative; overflow: hidden; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-portrait-wrap { position: relative; width: 100%; max-width: 420px; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.portrait-placeholder { width: 100%; aspect-ratio: 3/4; background: linear-gradient(160deg, #2a2218 0%, #1a1612 60%, #0d0b08 100%); position: relative; overflow: hidden; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.portrait-placeholder::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 60%, rgba(184,146,42,0.15) 0%, transparent 60%); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.portrait-guitar-icon { position: absolute; bottom: 2rem; right: 2rem; font-size: 5rem; opacity: 0.06; color: var(--gold); font-family: Georgia, serif; font-style: italic; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.portrait-label { position: absolute; bottom: -1px; left: -1px; right: -1px; background: var(--cream); padding: 1.25rem 1.5rem; border-top: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.portrait-name-block { font-family: 'DM Mono', monospace; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-light); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.accent-line { position: absolute; top: 2rem; left: -2rem; width: 1.5px; height: 120px; background: var(--gold); opacity: 0.5; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>section { padding: 6rem 3rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-header { display: flex; align-items: baseline; gap: 2rem; margin-bottom: 3.5rem; padding-bottom: 1.25rem; border-bottom: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-num { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.12em; color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 300; letter-spacing: -0.01em; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>h2 em { font-style: italic; color: var(--ink-muted); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.about-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 5rem; align-items: start; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.about-text p { font-size: 1.15rem; font-weight: 300; color: var(--ink-muted); margin-bottom: 1.25rem; line-height: 1.8; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.about-text p strong { font-weight: 600; color: var(--ink); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.about-facts { display: flex; flex-direction: column; gap: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.fact-item { padding: 1.25rem 0; border-bottom: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.fact-item:first-child { border-top: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.fact-label { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-light); margin-bottom: 0.3rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.fact-value { font-size: 1.05rem; font-weight: 400; color: var(--ink); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.teaching { background: var(--ink); color: var(--cream); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.teaching .section-header { border-color: rgba(245,240,232,0.12); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.teaching h2 { color: var(--cream); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.teaching h2 em { color: var(--gold-light); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.teaching .section-num { color: var(--gold-light); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lessons-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(245,240,232,0.1); border: 0.5px solid rgba(245,240,232,0.1); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lesson-card { background: var(--ink); padding: 2.5rem 2rem; position: relative; transition: background 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lesson-card:hover { background: #231e19; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lesson-tier { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-light); margin-bottom: 1rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lesson-title { font-size: 1.5rem; font-weight: 300; color: var(--cream); margin-bottom: 0.75rem; line-height: 1.2; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lesson-desc { font-size: 0.92rem; color: rgba(245,240,232,0.5); line-height: 1.7; margin-bottom: 1.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lesson-price { font-family: 'DM Mono', monospace; font-size: 0.7rem; color: rgba(245,240,232,0.4); letter-spacing: 0.05em; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lesson-arrow { position: absolute; top: 2.5rem; right: 2rem; color: rgba(245,240,232,0.2); font-size: 1.2rem; transition: color 0.2s, transform 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lesson-card:hover .lesson-arrow { color: var(--gold-light); transform: translate(3px, -3px); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.repertoire-intro { font-size: 1.2rem; font-weight: 300; font-style: italic; color: var(--ink-muted); max-width: 600px; margin-bottom: 3rem; line-height: 1.7; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.style-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.style-item { display: flex; align-items: baseline; gap: 1.5rem; padding: 1.1rem 0; border-bottom: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.style-item:nth-child(odd) { padding-right: 3rem; border-right: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.style-item:nth-child(even) { padding-left: 3rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.style-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--gold); flex-shrink: 0; position: relative; top: -2px; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.style-name { font-size: 1.1rem; font-weight: 300; color: var(--ink); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.style-note { margin-left: auto; font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: var(--ink-light); text-transform: uppercase; flex-shrink: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact { background: var(--warm-white); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-copy { font-size: 1.1rem; font-weight: 300; color: var(--ink-muted); line-height: 1.8; margin-bottom: 2rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-info { display: flex; flex-direction: column; gap: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-row { display: flex; justify-content: space-between; align-items: baseline; padding: 1rem 0; border-bottom: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-row:first-child { border-top: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-label { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-light); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-val { font-size: 1rem; color: var(--ink); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-val a { color: var(--gold); text-decoration: none; border-bottom: 0.5px solid transparent; transition: border-color 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact-val a:hover { border-color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>form { display: flex; flex-direction: column; gap: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.form-row { display: flex; flex-direction: column; gap: 0.4rem; padding: 1rem 0; border-bottom: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.form-row:first-child { border-top: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>label { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-light); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>input, textarea, select { background: transparent; border: none; outline: none; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.05rem; color: var(--ink); width: 100%; padding: 0.25rem 0; resize: none; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>input::placeholder, textarea::placeholder { color: var(--ink-light); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>textarea { min-height: 80px; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.form-submit { margin-top: 1.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.form-submit button { background: var(--ink); color: var(--cream); border: none; cursor: pointer; font-family: 'DM Mono', monospace; font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.9rem 2rem; transition: background 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.form-submit button:hover { background: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>footer { border-top: 0.5px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-copy { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: var(--ink-light); text-transform: uppercase; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-links { display: flex; gap: 2rem; list-style: none; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-links a { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-light); text-decoration: none; transition: color 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-links a:hover { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#player { border: 0.5px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#player-main { padding: 2rem 2.5rem; border-bottom: 0.5px solid var(--border); display: flex; flex-direction: column; gap: 1.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#player-info { display: flex; flex-direction: column; gap: 0.25rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#track-title { font-size: 1.4rem; font-weight: 300; color: var(--ink); letter-spacing: -0.01em; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#track-meta { font-family: 'DM Mono', monospace; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-light); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#player-controls { display: flex; align-items: center; gap: 1.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#player-controls button { background: none; border: none; cursor: pointer; color: var(--ink-muted); font-size: 0.9rem; padding: 0; line-height: 1; transition: color 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#player-controls button:hover { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#btn-play { width: 44px; height: 44px; border-radius: 50% !important; border: 0.5px solid var(--border-strong) !important; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; padding-left: 2px; color: var(--ink); transition: border-color 0.2s, color 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#btn-play:hover { border-color: var(--gold) !important; color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#btn-play.playing { color: var(--gold); border-color: var(--gold) !important; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#player-time { display: flex; align-items: center; gap: 1rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#time-current, #time-total { font-family: 'DM Mono', monospace; font-size: 0.6rem; color: var(--ink-light); letter-spacing: 0.05em; min-width: 2.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#time-total { text-align: right; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#progress-bar { flex: 1; height: 1px; background: var(--border-strong); cursor: pointer; position: relative; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#progress-fill { height: 100%; background: var(--ink); width: 0%; transition: width 0.1s linear; pointer-events: none; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#progress-bar:hover #progress-fill { background: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#track-list { display: flex; flex-direction: column; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.track-item { display: flex; align-items: baseline; gap: 1.5rem; padding: 1rem 2.5rem; border-bottom: 0.5px solid var(--border); cursor: pointer; transition: background 0.15s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.track-item:last-child { border-bottom: none; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.track-item:hover { background: rgba(26,22,18,0.03); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.track-item.active .track-name { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.track-item.active .track-num { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.track-num { font-family: 'DM Mono', monospace; font-size: 0.58rem; color: var(--ink-light); letter-spacing: 0.1em; min-width: 1.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.track-name { font-size: 1.05rem; font-weight: 300; color: var(--ink); flex: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.track-dur { font-family: 'DM Mono', monospace; font-size: 0.58rem; color: var(--ink-light); letter-spacing: 0.08em; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.player-hint { font-family: 'DM Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: var(--ink-light); margin-top: 1.25rem; line-height: 1.7; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.player-hint code { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>@keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-left &gt; * { animation: fadeUp 0.8s ease forwards; opacity: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-tag { animation-delay: 0.1s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>h1 { animation-delay: 0.25s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-sub { animation-delay: 0.4s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-cta { animation-delay: 0.55s; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-right { animation: fadeUp 1s 0.3s ease forwards; opacity: 0; }</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1">&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;span class="nav-logo"&gt;Micah Cadwell&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;ul class="nav-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="#teaching"&gt;Lessons&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="#booking"&gt;Booking&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="#listen"&gt;Listen&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;ul class="nav-social"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.instagram.com/micahcadwell" target="_blank" rel="noopener" aria-label="Instagram"&gt;Instagram&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://micahcadwell.bandcamp.com" target="_blank" rel="noopener" aria-label="Bandcamp"&gt;Bandcamp&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.youtube.com/@micahcadwell" target="_blank" rel="noopener" aria-label="YouTube"&gt;YouTube&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.tiktok.com/@micahcadwell" target="_blank" rel="noopener" aria-label="TikTok"&gt;TikTok&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p1">&lt;section class="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="hero-left"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="hero-tag"&gt;Jazz Guitar &amp;amp; Education&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Micah&lt;br&gt;Cadwell&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="hero-sub"&gt;Guitarist, composer, and educator rooted in the tradition — reaching toward something new.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-cta"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#teaching" class="btn-primary"&gt;Book a Lesson&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#about" class="btn-ghost"&gt;Learn More&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="hero-right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-portrait-wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="accent-line"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="portrait-placeholder"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="photo-hero.jpg" alt="Micah Cadwell with guitar" style="width:100%;height:100%;object-fit:cover;display:block;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="portrait-label"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="portrait-name-block"&gt;Atlanta, Georgia &amp;nbsp;·&amp;nbsp; Available Worldwide&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p1">&lt;section id="about"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="section-num"&gt;01 —&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;About &lt;em&gt;Micah&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;ul class="section-social"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.instagram.com/micahcadwell" target="_blank" rel="noopener"&gt;Instagram&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://micahcadwell.bandcamp.com" target="_blank" rel="noopener"&gt;Bandcamp&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.youtube.com/@micahcadwell" target="_blank" rel="noopener"&gt;YouTube&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.tiktok.com/@micahcadwell" target="_blank" rel="noopener"&gt;TikTok&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="about-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="about-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Micah Cadwell is a &lt;strong&gt;jazz guitarist and educator&lt;/strong&gt; with over two decades of experience performing and teaching across the country. His playing draws from the bebop tradition while embracing the harmonic language of post-bop, Brazilian music, and contemporary jazz.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Based in Atlanta, Micah has performed at venues and festivals throughout the Southeast and beyond. He brings the same passion to the bandstand as he does to the lesson room — clear, direct, and deeply musical.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Working exclusively with intermediate and advanced players, Micah focuses on unlocking new harmonic and improvisational territory — tailoring each lesson to the specific goals and voice of the student.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="about-facts"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="photo-about.jpg" alt="Micah Cadwell playing guitar" style="width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center top;margin-bottom:0;display:block;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Based in&lt;/div&gt;&lt;div class="fact-value"&gt;Atlanta, Georgia&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Teaching since&lt;/div&gt;&lt;div class="fact-value"&gt;2004 — 20+ years experience&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Students&lt;/div&gt;&lt;div class="fact-value"&gt;Intermediate &amp;amp; advanced players only&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Formats&lt;/div&gt;&lt;div class="fact-value"&gt;In-person &amp;amp; online lessons available&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p1">&lt;section class="teaching" id="teaching"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="section-num"&gt;02 —&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Lessons &amp;amp; &lt;em&gt;Education&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;ul class="section-social section-social--dark"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.instagram.com/micahcadwell" target="_blank" rel="noopener"&gt;Instagram&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://micahcadwell.bandcamp.com" target="_blank" rel="noopener"&gt;Bandcamp&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.youtube.com/@micahcadwell" target="_blank" rel="noopener"&gt;YouTube&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.tiktok.com/@micahcadwell" target="_blank" rel="noopener"&gt;TikTok&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="lessons-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="lesson-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-tier"&gt;Intermediate&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-title"&gt;Harmony &amp;amp; Improvisation&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-desc"&gt;Chord-melody, voice leading, the ii-V-I language, modes, and building your own improvisational vocabulary over standard repertoire.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-price"&gt;60 min · in-person or online&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-arrow"&gt;<span class="s1">↗</span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="lesson-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-tier"&gt;Advanced&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-title"&gt;Deep Harmonic Language&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-desc"&gt;Reharmonization, tritone substitutions, post-bop vocabulary, rhythm changes, and developing a personal improvisational style.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-price"&gt;60 min · in-person or online&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-arrow"&gt;<span class="s1">↗</span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="lesson-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-tier"&gt;Intensive&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-title"&gt;Composition &amp;amp; Arranging&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-desc"&gt;Original composition, chord-melody arranging for solo guitar, writing for small ensemble, and developing a coherent musical identity.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-price"&gt;60 min · in-person or online&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lesson-arrow"&gt;<span class="s1">↗</span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="booking"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="section-num"&gt;03 —&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Live &lt;em&gt;Performance&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;ul class="section-social"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.instagram.com/micahcadwell" target="_blank" rel="noopener"&gt;Instagram&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://micahcadwell.bandcamp.com" target="_blank" rel="noopener"&gt;Bandcamp&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.youtube.com/@micahcadwell" target="_blank" rel="noopener"&gt;YouTube&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.tiktok.com/@micahcadwell" target="_blank" rel="noopener"&gt;TikTok&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="about-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="about-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Micah is available for live performance across a range of formats and settings — from &lt;strong&gt;intimate solo guitar&lt;/strong&gt; to &lt;strong&gt;duo and trio configurations&lt;/strong&gt;, adaptable to the size and character of your event.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Whether you're hosting a private dinner, a corporate gathering, a wedding reception, or a ticketed jazz performance, Micah brings a refined, professional presence and a deep repertoire drawn from the jazz tradition.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Inquiries are welcome for one-time engagements and recurring residencies. Get in touch with your event details and Micah will get back to you promptly.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#contact" class="btn-primary" style="display:inline-block;margin-top:0.5rem;"&gt;Book a Performance&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="about-facts"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Solo&lt;/div&gt;&lt;div class="fact-value"&gt;Solo guitar — cocktail hours, intimate settings&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Duo&lt;/div&gt;&lt;div class="fact-value"&gt;Guitar + bass or guitar + vocals&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Trio&lt;/div&gt;&lt;div class="fact-value"&gt;Guitar, bass &amp;amp; drums — full jazz trio&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Events&lt;/div&gt;&lt;div class="fact-value"&gt;Private events, weddings, corporate functions&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="fact-item"&gt;&lt;div class="fact-label"&gt;Location&lt;/div&gt;&lt;div class="fact-value"&gt;Atlanta &amp;amp; surrounding areas, travel available&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="listen"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="section-num"&gt;04 —&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;&lt;em&gt;Listen&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;audio id="audio"&gt;&lt;/audio&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="player"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="player-main"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div id="player-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="track-title"&gt;Track One&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="track-meta"&gt;Micah Cadwell&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div id="player-controls"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button id="btn-prev" aria-label="Previous track"&gt;&amp;#9664;&amp;#9664;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button id="btn-play" aria-label="Play or pause"&gt;&amp;#9654;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button id="btn-next" aria-label="Next track"&gt;&amp;#9654;&amp;#9654;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div id="player-time"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span id="time-current"&gt;0:00&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="progress-bar" aria-label="Seek bar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div id="progress-fill"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span id="time-total"&gt;0:00&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="track-list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="track-item active" data-index="0"&gt;&lt;span class="track-num"&gt;01&lt;/span&gt;&lt;span class="track-name"&gt;Track One&lt;/span&gt;&lt;span class="track-dur"&gt;—:——&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="track-item" data-index="1"&gt;&lt;span class="track-num"&gt;02&lt;/span&gt;&lt;span class="track-name"&gt;Track Two&lt;/span&gt;&lt;span class="track-dur"&gt;—:——&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="track-item" data-index="2"&gt;&lt;span class="track-num"&gt;03&lt;/span&gt;&lt;span class="track-name"&gt;Track Three&lt;/span&gt;&lt;span class="track-dur"&gt;—:——&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="track-item" data-index="3"&gt;&lt;span class="track-num"&gt;04&lt;/span&gt;&lt;span class="track-name"&gt;Track Four&lt;/span&gt;&lt;span class="track-dur"&gt;—:——&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="player-hint"&gt;To add your tracks, update the &lt;code&gt;tracks&lt;/code&gt; array in the script at the bottom of this file with your audio file paths, titles, and durations.&lt;/p&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="contact" id="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="section-num"&gt;05 —&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Get in &lt;em&gt;Touch&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="contact-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="contact-copy"&gt;Whether you're interested in lessons, a performance booking, or just want to talk music — Micah would love to hear from you.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="contact-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="contact-row"&gt;&lt;span class="contact-label"&gt;Location&lt;/span&gt;&lt;span class="contact-val"&gt;Atlanta, Georgia&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="contact-row"&gt;&lt;span class="contact-label"&gt;Students&lt;/span&gt;&lt;span class="contact-val"&gt;Intermediate &amp;amp; advanced only&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="contact-row"&gt;&lt;span class="contact-label"&gt;Online&lt;/span&gt;&lt;span class="contact-val"&gt;&lt;a href="#"&gt;Zoom &amp;amp; FaceTime available&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="contact-form"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="form-row"&gt;&lt;label for="name"&gt;Name&lt;/label&gt;&lt;input id="name" type="text" placeholder="Your name"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="form-row"&gt;&lt;label for="email"&gt;Email&lt;/label&gt;&lt;input id="email" type="email" placeholder="your@email.com"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="form-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="interest"&gt;Enquiry type&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;select id="interest"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option value=""&gt;Select one...&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option&gt;Lessons&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option&gt;Performance Booking&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option&gt;Other&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="form-row"&gt;&lt;label for="message"&gt;Message&lt;/label&gt;&lt;textarea id="message" placeholder="Tell me a bit about where you're at and what you're looking for..."&gt;&lt;/textarea&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="form-submit"&gt;&lt;button type="button" onclick="sendMail()"&gt;Send Message&lt;/button&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;span class="footer-copy"&gt;© 2026 Micah Cadwell. All rights reserved.&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;ul class="footer-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.instagram.com/micahcadwell" target="_blank" rel="noopener"&gt;Instagram&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://micahcadwell.bandcamp.com" target="_blank" rel="noopener"&gt;Bandcamp&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.youtube.com/@micahcadwell" target="_blank" rel="noopener"&gt;YouTube&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.tiktok.com/@micahcadwell" target="_blank" rel="noopener"&gt;TikTok&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ── ADD YOUR TRACKS HERE ──────────────────────────────────────────</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const tracks = [</p>
+<p class="p1"><span class="Apple-converted-space">    </span>{ title: ‘Hidden Beach (Everything Will Be Alright)’, <span class="Apple-converted-space">  </span>src: 'Micah Cadwell, Kyle Jones &amp; Patrick Moreno - l'appel du vide - 04 Hidden Beach (Everything Will Be Alright) copy.’mp3 },</p>
+<p class="p1"><span class="Apple-converted-space">    </span>{ title: 'Track Two', <span class="Apple-converted-space">  </span>src: 'audio/track-02.mp3' },</p>
+<p class="p1"><span class="Apple-converted-space">    </span>{ title: 'Track Three', src: 'audio/track-03.mp3' },</p>
+<p class="p1"><span class="Apple-converted-space">    </span>{ title: 'Track Four',<span class="Apple-converted-space">  </span>src: 'audio/track-04.mp3' },</p>
+<p class="p1"><span class="Apple-converted-space">  </span>];</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ─────────────────────────────────────────────────────────────────</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>let current = 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>let isPlaying = false;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>const audio<span class="Apple-converted-space">      </span>= document.getElementById('audio');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btnPlay<span class="Apple-converted-space">    </span>= document.getElementById('btn-play');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btnPrev<span class="Apple-converted-space">    </span>= document.getElementById('btn-prev');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btnNext<span class="Apple-converted-space">    </span>= document.getElementById('btn-next');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const trackTitle = document.getElementById('track-title');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const timeCur<span class="Apple-converted-space">    </span>= document.getElementById('time-current');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const timeTotal<span class="Apple-converted-space">  </span>= document.getElementById('time-total');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const progFill <span class="Apple-converted-space">  </span>= document.getElementById('progress-fill');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const progBar<span class="Apple-converted-space">    </span>= document.getElementById('progress-bar');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const trackItems = document.querySelectorAll('.track-item');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const trackDurs<span class="Apple-converted-space">  </span>= document.querySelectorAll('.track-dur');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const trackNames = document.querySelectorAll('.track-name');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>function fmt(s) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (!isFinite(s)) return '—:——';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const m = Math.floor(s / 60), sec = Math.floor(s % 60);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>return m + ':' + String(sec).padStart(2, '0');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>function loadTrack(idx) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>current = idx;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>audio.src = tracks[idx].src;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>trackTitle.textContent = tracks[idx].title;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>trackItems.forEach((el, i) =&gt; el.classList.toggle('active', i === idx));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>progFill.style.width = '0%';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>timeCur.textContent = '0:00';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>timeTotal.textContent = '—:——';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>function togglePlay() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (isPlaying) { audio.pause(); } else { audio.play().catch(() =&gt; {}); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>audio.addEventListener('play',<span class="Apple-converted-space">  </span>() =&gt; { isPlaying = true;<span class="Apple-converted-space">  </span>btnPlay.textContent = '<span class="s2">⏸</span>'; btnPlay.classList.add('playing'); });</p>
+<p class="p1"><span class="Apple-converted-space">  </span>audio.addEventListener('pause', () =&gt; { isPlaying = false; btnPlay.textContent = '<span class="s3">▶</span>'; btnPlay.classList.remove('playing'); });</p>
+<p class="p1"><span class="Apple-converted-space">  </span>audio.addEventListener('ended', () =&gt; { if (current &lt; tracks.length - 1) { loadTrack(current + 1); audio.play().catch(() =&gt; {}); } else { isPlaying = false; btnPlay.textContent = '<span class="s3">▶</span>'; btnPlay.classList.remove('playing'); } });</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>audio.addEventListener('timeupdate', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (!audio.duration) return;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const pct = (audio.currentTime / audio.duration) * 100;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>progFill.style.width = pct + '%';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>timeCur.textContent = fmt(audio.currentTime);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>audio.addEventListener('loadedmetadata', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>timeTotal.textContent = fmt(audio.duration);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>trackDurs[current].textContent = fmt(audio.duration);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>progBar.addEventListener('click', e =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const rect = progBar.getBoundingClientRect();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const pct = (e.clientX - rect.left) / rect.width;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (audio.duration) audio.currentTime = pct * audio.duration;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>btnPlay.addEventListener('click', togglePlay);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>btnPrev.addEventListener('click', () =&gt; { loadTrack(current &gt; 0 ? current - 1 : tracks.length - 1); if (isPlaying) audio.play().catch(() =&gt; {}); });</p>
+<p class="p1"><span class="Apple-converted-space">  </span>btnNext.addEventListener('click', () =&gt; { loadTrack(current &lt; tracks.length - 1 ? current + 1 : 0); if (isPlaying) audio.play().catch(() =&gt; {}); });</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>trackItems.forEach(el =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>el.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>loadTrack(parseInt(el.dataset.index));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>audio.play().catch(() =&gt; {});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>function sendMail() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const name <span class="Apple-converted-space">    </span>= document.getElementById('name').value.trim();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const email<span class="Apple-converted-space">    </span>= document.getElementById('email').value.trim();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const interest = document.getElementById('interest').value;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const message<span class="Apple-converted-space">  </span>= document.getElementById('message').value.trim();</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const subject<span class="Apple-converted-space">  </span>= encodeURIComponent((interest || 'Enquiry') + ' — ' + (name || 'Website visitor'));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const body <span class="Apple-converted-space">    </span>= encodeURIComponent(</p>
+<p class="p1"><span class="Apple-converted-space">      </span>(name<span class="Apple-converted-space">    </span>? 'Name: ' + name + '\n'<span class="Apple-converted-space">    </span>: '') +</p>
+<p class="p1"><span class="Apple-converted-space">      </span>(email <span class="Apple-converted-space">  </span>? 'Email: ' + email + '\n'<span class="Apple-converted-space">  </span>: '') +</p>
+<p class="p1"><span class="Apple-converted-space">      </span>(interest? 'Re: ' + interest + '\n'<span class="Apple-converted-space">  </span>: '') +</p>
+<p class="p1"><span class="Apple-converted-space">      </span>'\n' + message</p>
+<p class="p1"><span class="Apple-converted-space">    </span>);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>window.location.href = 'mailto:YOUR_EMAIL_HERE?subject=' + subject + '&amp;body=' + body;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
